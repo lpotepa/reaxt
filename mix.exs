@@ -26,7 +26,7 @@ defmodule Reaxt.Mixfile do
   defp deps do
     [{:exos, "1.0.0"},
      {:poolboy, "~> 1.5.0"},
-     {:cowboy,"~> 1.0.0"},
+     {:cowboy,"~> 2.5"},
      {:plug, "~> 1.0"},
      {:poison,"~> 2.1.0"},
      {:ex_doc, ">= 0.0.0", only: :dev}]
